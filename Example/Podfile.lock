@@ -1,0 +1,16 @@
+PODS:
+  - RiffleTest2 (0.1.0)
+
+DEPENDENCIES:
+  - RiffleTest2 (from `../`)
+
+EXTERNAL SOURCES:
+  RiffleTest2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RiffleTest2: 4596928850e70e08a81594b44c864add40990c19
+
+PODFILE CHECKSUM: 4d65b15536b27509dc6f79f3f044df6594517869
+
+COCOAPODS: 1.11.2

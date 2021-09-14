@@ -1,0 +1,6 @@
+framework module RiffleTest2 {
+  umbrella header "RiffleTest2-umbrella.h"
+
+  export *
+  module * { export * }
+}

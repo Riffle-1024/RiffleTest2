@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B34E7FE1DC109453E79E9C61 /* Pods_RiffleTest2_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A2E2A11A894B4FBF25C211 /* Pods_RiffleTest2_Tests.framework */; };
+		FBA8AED826F0A4C00044860F /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA8AED726F0A4C00044860F /* RTViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		8DB8B055B348A7458338D6B5 /* RiffleTest2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RiffleTest2.podspec; path = ../RiffleTest2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D6C991BB9BD1D8F913281A3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F77F1050610A48135B59EA5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FBA8AED626F0A4C00044860F /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RTViewController.h; path = ../../RiffleTest2/Classes/RTViewController.h; sourceTree = "<group>"; };
+		FBA8AED726F0A4C00044860F /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RTViewController.m; path = ../../RiffleTest2/Classes/RTViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				FBA8AED626F0A4C00044860F /* RTViewController.h */,
+				FBA8AED726F0A4C00044860F /* RTViewController.m */,
 			);
 			name = "Example for RiffleTest2";
 			path = RiffleTest2;
@@ -366,6 +371,7 @@
 			files = (
 				6003F59E195388D20070C39A /* RTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* RTViewController.m in Sources */,
+				FBA8AED826F0A4C00044860F /* RTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
